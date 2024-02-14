@@ -8,11 +8,13 @@ const Navbar = () => {
         < div className='main'>
 
             <div className='left'>
-                <img src={logo} alt="My Logo" className='logo' />
+                <Link to="/">
+                <img src={logo} alt="My Logo" className='logo' style={{cursor:"pointer"}} />
+                </Link>
             </div>
             <div className='right'>
 
-                <ul>
+                <ul >
 
                     <Link to ="/" >
                     <li>ABOUT</li>
